@@ -14,5 +14,8 @@ namespace Biblioteca.Models
 		public string? Name { get; set; }
 		[MaxLength(80), MinLength(4)]
 		public string? site { get; set; }
+
+
+
 	}
 }
